@@ -1,0 +1,30 @@
+{
+  "name": "demo-wallet-shared",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf ./build",
+    "build:tsc": "yarn clean && tsc -p tsconfig.json",
+    "build": "yarn build:tsc",
+    "watch:tsc": "tsc -w -p tsconfig.json",
+    "start": "yarn clean && yarn watch:tsc"
+  },
+  "dependencies": {
+    "@stellar/frontend-helpers": "^2.1.4",
+    "@stellar/prettier-config": "^1.0.1",
+    "@stellar/wallet-sdk": "^0.7.0-rc.0",
+    "@ledgerhq/hw-app-str": "^6.11.2",
+    "bignumber.js": "^9.0.2",
+    "crypto": "^1.0.1",
+    "dompurify": "^2.3.5",
+    "html-react-parser": "^1.4.8",
+    "lodash": "^4.17.21",
+    "marked": "^4.0.12",
+    "rimraf": "^3.0.2",
+    "stellar-sdk": "^10.1.1",
+    "toml": "^3.0.0",
+    "tslib": "^2.3.1",
+    "trezor-connect": "8.2.6-extended",
+    "typescript": "^4.7.2"
+  }
+}

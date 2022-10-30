@@ -1,0 +1,9 @@
+export const LOG_MESSAGE_EVENT = "logEventMessage";
+export const URL_ITEM_SEPARATOR_CHAR = "|";
+export const URL_KEY_PAIR_SEPARATOR_CHAR = ">";
+export const CSS_MODAL_PARENT_ID = "root";
+export const FLAGGED_ACCOUNT_STORAGE_ID = "flaggedAcounts";
+export const FLAGGED_ACCOUNT_DATE_STORAGE_ID = "flaggedAcountDate";
+export const MEMO_REQ_ACCOUNT_STORAGE_ID = "memoRequiredAccounts";
+export const MEMO_REQ_ACCOUNT_DATE_STORAGE_ID = "memoRequiredAccountsDate";
+export const TX_HISTORY_LIMIT = 100;
